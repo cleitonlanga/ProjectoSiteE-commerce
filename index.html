@@ -4,13 +4,137 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Site E-commerce</title>
+    <!--favcons-->
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="./assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="background: #FFC107;
+    ">
+    <meta name="theme-color" content="background: #FFC107; ">
+    <!--End favcons-->
 </head>
 <!--Css-->
 <link href="./assets/css/Style.css" rel="stylesheet">
 <body>
-    
+    <!--Header-->
+    <header class="container-fluid"> 
+        <!--Container-->
+        <section class="container">
+            <!--Row-->
+            <article class="row">
+             <!--Logo-->   
+            <a href="/" class="col-md-2">
+                <img src="./assets/images/logo.svg" alt="logo da empresa - Moda da Mulher">
+            </a>
+            <!--End Logo-->
 
+            <!--Search-->
+            <form action="#" class="col-md-7">
+                <input type="text" name="email" placeholder="Procurar Roupas aqui">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg>
+                </button>
+            </form>
+            <!--End Search-->
+            <!--Administrativo do Cliente-->
+            <ul class="col-md-3">
+                <li class="nav-item">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                        </svg>
+                        Entrar
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <span class="notification">3</span>
+                    <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </svg>
+                     Carinho 
+                    </a>
+                </li>
+            </ul>
+             <!--End Administrativo do Cliente-->
+            </article>
+            <!--End Row-->
+        </section>
+        <!--End Container-->
+    </header>
+    <!--End Header-->
+    <!--Menu do Site-->
+    <nav class="container-fluid nav produtos">
+        <!--Container -->
+        <section class="container">
+              <!--Menu -->
+         <ul class="nav">
+              <!--Lista de items -->
+            <li class="nav-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+                Moda Femenina
+
+                <!--Sub-Menu -->
+                <ul class="nav flex-column">
+                    <li class="nav-item">Lancamentos</li>
+
+                    <li class="nav-item">Plus size</li>
+
+                    <li class="nav-item">Moda praia </li>
+
+                    <li class="nav-item">Acessorios </li>
+
+                    <li class="nav-item">Promocao </li>
+                </ul>
+                  <!--End Sub-Menu -->
+            </li>
+               <!--End Lista de items -->
+
+            <li class="nav-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+                Calcados
+            </li>
+
+         </ul>
+                <!--End Menu -->
+      </section>
+        <!-- End Container -->
+    </nav>
+    <!--End Menu do Site-->
+     <!--Section Banners Promocionais Rotativos-->
+    <Section id="Banners-promocionais" class="container carousel slide">
+        <!--Imagens dos Banners-->
+        <article class="carousel-inner">
+          <figure class="carousel-item active">
+            <img src="./assets/images/banner-1.jpg" class="d-block w-100" alt="Banners-promocionais Lancamento verao">
+          </figure>
+          <figure class="carousel-item">
+            <img src="./assets/images/banner-2.jpg" class="d-block w-100" alt="Banners-promocionais diversos items">
+          </figure>
+        </article>
+         <!--End Imagens dos Banners--> 
+          <!--Buttons dos Banners--> 
+        <button class="carousel-control-prev" type="button" data-bs-target="#Banners-promocionais" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#Banners-promocionais" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <!--End Buttons dos Banners--> 
+    </Section>
+    <!--End Section Banners Promocionais Rotativos-->
 
 <!-- Optional JavaScript-->
 <!--Jquerry first, then Bootstrap JS -->
